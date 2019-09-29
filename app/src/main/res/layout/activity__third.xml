@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_Second">
+    tools:context=".Activity_Third">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,21 +14,23 @@
         tools:layout_editor_absoluteY="0dp">
 
         <TextView
-            android:id="@+id/txtViewActivitySecond"
+            android:id="@+id/txtViewActivityThird"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Second Activity" />
+            android:text="Third Activity" />
+
 
         <TextView
-            android:id="@+id/lblInfoActivitySecond"
+            android:id="@+id/lblInfoActivityThird"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="TextView"
+            android:visibility="visible" />
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DRUGI EKRAN
+        android:text="TRZECI EKRAN
 "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"

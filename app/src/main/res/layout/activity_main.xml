@@ -12,24 +12,39 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btnNextActivity"
-            android:layout_width="match_parent"
+            android:id="@+id/btnSecondActivity"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Change Activity" />
+            android:text="Second Activity" />
+
+        <Button
+            android:id="@+id/btnThirdActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Third Acivity" />
 
         <EditText
-            android:id="@+id/txtMessage"
+            android:id="@+id/txtMessageToSecondActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="txtMessage"
+            android:hint="text to secong activity"
             android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtMessageToThirdActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="text to third activity"
+            android:inputType="textPersonName"/>
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="first activity"
+        android:text="PIERWSZY EKRAN
+"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

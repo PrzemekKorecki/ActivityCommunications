@@ -11,9 +11,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btnNextActivity.setOnClickListener() {
+        btnSecondActivity.setOnClickListener() {
             val intent = Intent(this, Activity_Second::class.java)
-            intent.putExtra("myMsg", txtMessage.text.toString())
+            intent.putExtra("myMsgToSecondActivity", txtMessageToSecondActivity.text.toString())
+            startActivity(intent)
+        }
+        btnThirdActivity.setOnClickListener(){
+            val intent = Intent(this, Activity_Third::class.java)
+            intent.putExtra("MyMsgToThirdActivity", txtMessageToThirdActivity.text.toString())
             startActivity(intent)
         }
     }
