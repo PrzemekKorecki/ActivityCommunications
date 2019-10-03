@@ -10,8 +10,8 @@ class Activity_Second : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity__second)
 
-        val intent=intent
-        var message = intent.getStringExtra("myMsgToSecondActivity")
+        val intentSecond=intent
+        var message = intentSecond.getStringExtra("myMsgToSecondActivity")
         lblInfoActivitySecond.text=message
     }
 }

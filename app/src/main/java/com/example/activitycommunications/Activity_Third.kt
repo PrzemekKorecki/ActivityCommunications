@@ -10,8 +10,8 @@ class Activity_Third : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity__third)
 
-        val intent2=intent
-        var message = intent2.getStringExtra("myMsgToThirdActivity")
+        val intentThird=intent
+        var message = intentThird.getStringExtra("MyMsgToThirdActivity")
         lblInfoActivityThird.text=message
     }
 }

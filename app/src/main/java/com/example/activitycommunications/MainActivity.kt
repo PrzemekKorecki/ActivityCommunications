@@ -12,14 +12,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnSecondActivity.setOnClickListener() {
-            val intent = Intent(this, Activity_Second::class.java)
-            intent.putExtra("myMsgToSecondActivity", txtMessageToSecondActivity.text.toString())
-            startActivity(intent)
+            val intentSecond = Intent(this, Activity_Second::class.java)
+            intentSecond.putExtra("myMsgToSecondActivity", txtMessageToSecondActivity.text.toString())
+            startActivity(intentSecond)
         }
         btnThirdActivity.setOnClickListener() {
-            val intent2 = Intent(this, Activity_Third::class.java)
-            intent2.putExtra("MyMsgToThirdActivity", txtMessageToThirdActivity.text.toString())
-            startActivity(intent2)
+            val intentThird = Intent(this, Activity_Third::class.java)
+            intentThird.putExtra("MyMsgToThirdActivity", txtMessageToThirdActivity.text.toString())
+            startActivity(intentThird)
         }
+
+
     }
 }

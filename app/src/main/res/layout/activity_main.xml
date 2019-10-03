@@ -27,7 +27,7 @@
             android:id="@+id/txtMessageToSecondActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:ems="30"
             android:hint="text to secong activity"
             android:inputType="textPersonName" />
 
@@ -36,8 +36,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:text="text to third activity"
-            android:inputType="textPersonName"/>
+            android:hint="text to third activity"
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <TextView
